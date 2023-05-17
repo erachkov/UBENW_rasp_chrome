@@ -45,10 +45,8 @@ RUN apt-get clean
 
 
 ### Note make custom changes - curretly manual
-#docker cp heuristic_goldstine:/chromium/src/chrome/browser/resources/offline_pages C:\PMDEV\UBENW_rasp\
-#docker cp C:\PMDEV\UBENW_rasp\offline\offline_internals.html heuristic_goldstine:/chromium/src/chrome/browser/resources/offline_pages/
-#docker cp C:\PMDEV\UBENW_rasp\offline\offline_internals.png heuristic_goldstine:/chromium/src/chrome/browser/resources/offline_pages/
-#docker cp  C:\PMDEV\UBENW_rasp\offline\offline_internals_ui.cc heuristic_goldstine:/chromium/src/chrome/browser/ui/webui/offline/
+# docker cp  C:\PMDEV\UBENW_rasp_chrome\resources\images\offline_internals.png heuristic_goldstine:/chromium/src/components/neterror/images
+# docker cp  C:\PMDEV\UBENW_rasp_chrome\resources\neterror.html heuristic_goldstine:/chromium/src/components/neterror/
 
 #git status
 #modified:   build/install-build-deps.sh
