@@ -48,17 +48,10 @@ RUN apt-get clean
 # docker cp  C:\PMDEV\UBENW_rasp_chrome\resources\images\offline_internals.png heuristic_goldstine:/chromium/src/components/neterror/images
 # docker cp  C:\PMDEV\UBENW_rasp_chrome\resources\neterror.html heuristic_goldstine:/chromium/src/components/neterror/
 
-#git status
-#modified:   build/install-build-deps.sh
-#modified:   chrome/browser/browser_resources.grd
-#modified:   chrome/browser/resources/offline_pages/offline_internals.html
-#modified:   chrome/browser/ui/webui/offline/offline_internals_ui.cc
-#new file:   chrome/browser/resources/offline_pages/offline_internals.png
 
 #RUN cd /chromium/src &&  rm -r out/Default
 
 #RUN cd /chromium/src && gn gen out/Default --args='target_cpu="arm" target_os="linux" arm_float_abi="hard" is_debug=false is_component_build=true ffmpeg_branding="Chrome" use_system_libdrm=false use_xkbcommon=true use_udev=true enable_nacl=false enable_widevine=true enable_vulkan=false use_cups=true'
-#RUN cd /chromium/src &&  gn gen out/Default --args='target_cpu="arm" target_os="linux"'
 
 
 # Build Chromium
